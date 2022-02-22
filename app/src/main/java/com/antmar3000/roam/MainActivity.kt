@@ -37,6 +37,7 @@ class MainActivity : AppCompatActivity() {
                     AuthenticationData(auth.currentUser?.displayName,
                     binding.editMsg.text.toString())
                 )
+            binding.editMsg.text.clear()
             binding.recyclerMessage.smoothScrollToPosition(binding.recyclerMessage.adapter!!.itemCount)
         }
         msgListener(reference)

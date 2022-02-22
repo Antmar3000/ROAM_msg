@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "638248853101",
+    "firebase_url": "https://roam-sp616-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "roam-sp616",
+    "storage_bucket": "roam-sp616.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638248853101:android:5c99a21d2d36d107c12964",
+        "android_client_info": {
+          "package_name": "com.antmar3000.roam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638248853101-h1vbprq164ilqnccs960ccvpobjh2okl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.antmar3000.roam",
+            "certificate_hash": "c47085bed703ae5f5b582d586d0a14134d57b70d"
+          }
+        },
+        {
+          "client_id": "638248853101-794gosr35c1spo99ae1854qadhbhil3s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEENEucB0UyjBGfQUf8EYgz3c_Lti3j6s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638248853101-794gosr35c1spo99ae1854qadhbhil3s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

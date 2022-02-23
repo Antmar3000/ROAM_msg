@@ -8,6 +8,7 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.antmar3000.roam.databinding.ActivityMainBinding
+import com.antmar3000.roam.fragments.PreferencesFragment
 import com.bumptech.glide.Glide
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
@@ -37,6 +38,7 @@ class MainActivity : AppCompatActivity() {
                     AuthenticationData(auth.currentUser?.displayName,
                     binding.editMsg.text.toString())
                 )
+            binding.editMsg.text.clear()
             binding.recyclerMessage.smoothScrollToPosition(binding.recyclerMessage.adapter!!.itemCount)
         }
         msgListener(reference)
@@ -58,7 +60,8 @@ class MainActivity : AppCompatActivity() {
         when (item.itemId) {
             R.id.sign_out -> {auth.signOut()
                 finish() }
-            R.id.preferences -> {}
+            R.id.preferences -> { supportFragmentManager.beginTransaction().addToBackStack(null)
+                .replace(R.id.constraintLayoutMain, PreferencesFragment()).commit()}
         }
         return super.onOptionsItemSelected(item)
     }

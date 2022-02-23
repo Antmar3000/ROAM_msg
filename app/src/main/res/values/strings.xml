@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">RoaM</string>
+    <string name="client_id_firebase">638248853101-h1vbprq164ilqnccs960ccvpobjh2okl.apps.googleusercontent.com</string>
+    <string name="menu_preferences">Preferences</string>
+    <string name="menu_sign_out">Sign out</string>
+    <string name="email_hint">E-mail</string>
+    <string name="password_hint">Password</string>
+    <string name="email_register_hint">Input your E-mail here</string>
+    <string name="password_register_hint">Set your password here</string>
+    <string name="button_register">Submit</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="error_email">Field must not be empty</string>
+    <string name="register_success">Registered successfully</string>
+    <string name="default_uri">"android.resource://com.antmar3000.roam/" + R.drawable.ic_baseline_no_photography_24</string>
+    <string name="default_user_name">No name</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register_failed">Register failed</string>
+    <string name="sign_in_fail">Wrong E-mail or password</string>
+    <string-array name="statuses">
+        <item>Online</item>
+        <item>Hidden</item>
+        <item>Busy</item>
+        <item>Disconnected</item>
+    </string-array>
+    <string name="account">Account</string>
+    <string name="name_change">Click to change your display name</string>
+    <string name="account_id_info">Your unique account ID</string>
+    <string name="about_info">You can write about yourself</string>
+</resources>
